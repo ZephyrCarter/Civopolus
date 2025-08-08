@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .action {
+display: inline;}
+
+</style>
+</head>
+<body>
+
+You wake up in a bed in a strange room. Do you explore or stay put? 
+
+<hr>
+
+<div class="buttons">
+            <div class="action">
+
+           <button type="button" class="action" onclick="myFunction1()">Explore</button>
+           
+       <button type="button" class="action" onclick="myFunction2()">Stay put</button>
+
+            <p id="option1"></p>
+            <p id="option2"></p>
+
+            </div>
+        </div>
+<hr>
+
+
+<script>
+
+function myFunction1() {
+  document.getElementById("option1").innerHTML = "Hello World";
+}
+function myFunction2() {
+  document.getElementById("option2").innerHTML = "Hello world";
+}
+
+</script>
+
+</body>
+</html>
