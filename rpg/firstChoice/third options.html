@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+text-align: center;
+        
+    }
+    .action {
+display: inline;}
+
+</style>
+</head>
+<body>
+
+<h3>You come to a fork in the vent. The vent goes off in two directions, like a T formation. Do you go left, or right?</h3> 
+
+<hr>
+
+<div class="buttons">
+            <div class="action">
+
+           <button type="button" class="action" onclick="myFunction1()">Left</button>
+           
+       <button type="button" class="action" onclick="myFunction2()">Right</button>
+
+            <p id="option1"></p>
+            <p id="option2"></p>
+
+            </div>
+        </div>
+<hr>
+
+
+<script>
+
+function myFunction1() {
+  document.getElementById("option1").innerHTML = 'You go left, coming into an old, decrepet attic. <a href="">Next--></a>';
+}
+function myFunction2() {
+  document.getElementById("option2").innerHTML = 'You you turn right, continuing to follow the air vent. <a href="">Next--></a>';
+}
+
+</script>
+
+</body>
+</html>
