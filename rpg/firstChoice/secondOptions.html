@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+text-align: center;
+        
+    }
+    .action {
+display: inline;}
+
+</style>
+</head>
+<body>
+
+<h3>You dart down the hallway. The hallway splits into two directions, one to a closet under the stairs, and the other into a billiard room. Where do you go?</h3> 
+
+<hr>
+
+<div class="buttons">
+            <div class="action">
+
+           <button type="button" class="action" onclick="myFunction1()">Closet</button>
+           
+       <button type="button" class="action" onclick="myFunction2()">Billiard room</button>
+
+            <p id="option1"></p>
+            <p id="option2"></p>
+
+            </div>
+        </div>
+<hr>
+
+
+<script>
+
+function myFunction1() {
+  document.getElementById("option1").innerHTML = 'You run into the closet. You slam the door to the closet, and the man runs right up to it. <a href="https://zephyrcarter.github.io/Civopolus/rpg/death_screen_universal.html">Next--></a>';
+}
+function myFunction2() {
+  document.getElementById("option2").innerHTML = 'You run into the Billiard room. You see the entrance to an air vent in the celeing. You climb in, fear in your heart as you move through this cold metal tube. <a href="">Next--></a>';
+}
+
+</script>
+
+</body>
+</html>
