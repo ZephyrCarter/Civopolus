@@ -6,10 +6,11 @@ background-color: black;
 text-align: center;
 color: white;  
 }
-  
+.greeting {border-color: white;
+		  border-style: solid;}
 </style>
 
-<h1>Numbers randomly generated</h1>
+<h1 class="greeting">Numbers randomly generated</h1>
   
   <hr>
   
