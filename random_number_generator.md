@@ -35,6 +35,17 @@ Math.floor(Math.random() * 2);
     
   <hr>
 
+  <h2>Contactor becomes king? 0=yes 1=no</h2>
+
+<h3 id="contactorKingOrNo"></h3>
+
+<script>
+document.getElementById("contactorKingOrNo").innerHTML =
+Math.floor(Math.random() * 2);
+</script>
+    
+  <hr>
+
 <h2>Who attacks first, one who contacter contacted? 0=contacter 1=contacted</h2>
 
 <h3 id="whoAttack"></h3>
