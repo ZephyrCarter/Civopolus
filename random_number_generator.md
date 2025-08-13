@@ -55,6 +55,17 @@ document.getElementById("whoAttack").innerHTML =
 Math.floor(Math.random() * 2);
 </script>
 
+ <hr>
+
+<h2>Kill or no kill? 0=kill 1=no kill</h2>
+
+<h3 id="killOrNo"></h3>
+
+<script>
+document.getElementById("killOrNo").innerHTML =
+Math.floor(Math.random() * 2);
+</script>
+
   <hr>
 
 <h2>Killer: continue with attack, or stay in place? 0=stay 1=continue</h2>
