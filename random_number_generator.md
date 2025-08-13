@@ -27,7 +27,7 @@ Math.floor(Math.random() * 2);
     
   <hr>
   
-<h2>Join kingdom or no? 0=yes 1=no</h2>
+<h2>(Peace) Join kingdom or no? 0=yes 1=no</h2>
 
 <h3 id="joinOrNo"></h3>
 
@@ -38,7 +38,7 @@ Math.floor(Math.random() * 2);
     
   <hr>
 
-  <h2>Contactor becomes king? 0=yes 1=no</h2>
+  <h2>(Peace) Contactor becomes king? 0=yes 1=no</h2>
 
 <h3 id="contactorKingOrNo"></h3>
 
@@ -49,7 +49,7 @@ Math.floor(Math.random() * 2);
     
   <hr>
 
-<h2>Who attacks first, one who contacter contacted? 0=contacter 1=contacted</h2>
+<h2>(War) Who attacks first, one who contacter or contacted? 0=contacter 1=contacted</h2>
 
 <h3 id="whoAttack"></h3>
 
@@ -60,7 +60,7 @@ Math.floor(Math.random() * 2);
 
  <hr>
 
-<h2>Kill or no kill? 0=kill 1=no kill</h2>
+<h2>(War) Kill or no kill? 0=kill 1=no kill</h2>
 
 <h3 id="killOrNo"></h3>
 
@@ -71,7 +71,7 @@ Math.floor(Math.random() * 2);
 
   <hr>
 
-<h2>Killer: continue with attack, or stay in place? 0=stay 1=continue</h2>
+<h2>(War) Killer: continue with attack, or stay in place? 0=stay 1=continue</h2>
 
 <h3 id="killerMoveOrNo"></h3>
 
