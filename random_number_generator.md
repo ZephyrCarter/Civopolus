@@ -23,6 +23,17 @@ Math.floor(Math.random() * 2);
 </script>
     
   <hr>
+  
+<h2>Join kingdom or no? 0=yes 1=no</h2>
+
+<h3 id="joinOrNo"></h3>
+
+<script>
+document.getElementById("joinOrNo").innerHTML =
+Math.floor(Math.random() * 2);
+</script>
+    
+  <hr>
 
 <h2>Who attacks first, one who contacter contacted? 0=contacter 1=contacted</h2>
 
@@ -33,17 +44,6 @@ document.getElementById("whoAttack").innerHTML =
 Math.floor(Math.random() * 2);
 </script>
 
-  <hr>
-
-<h2>If war: killed? 0=yes 1=no</h2>
-
-<h3 id="killOrNo"></h3>
-
-<script>
-document.getElementById("killOrNo").innerHTML =
-Math.floor(Math.random() * 2);
-</script>
-  
   <hr>
 
 <h2>Killer: continue with attack, or stay in place? 0=stay 1=continue</h2>
