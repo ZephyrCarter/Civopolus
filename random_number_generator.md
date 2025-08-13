@@ -2,9 +2,9 @@
 <style>
 
 body {
-
+background-color: black;
 text-align: center;
-  
+color: white;  
 }
   
 </style>
@@ -12,8 +12,10 @@ text-align: center;
 <h1>Numbers randomly generated</h1>
   
   <hr>
+  
+  <hr>
 
-<h2>War or Peace? 0=yes 1=no</h2>
+<h2>War or Peace? 0=war 1=peace</h2>
 
 <h3 id="warOrPeace"></h3>
 
@@ -77,10 +79,9 @@ document.getElementById("killerMoveOrNo").innerHTML =
 Math.floor(Math.random() * 2);
 </script>
 
+<hr>
 
-
-
-
+<hr>
 
 
 
