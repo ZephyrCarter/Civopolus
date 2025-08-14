@@ -11,9 +11,13 @@ color: white;
 
 <h1 class="greeting">Numbers randomly generated</h1>
   
-  <hr>
-  
-  <hr>
+<hr>
+<hr>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hbe3CQamF8k?si=we0ZEZB_ORcFs4Gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<hr>
+<hr>
 
 <h2>War or Peace?</h2>
 
@@ -116,10 +120,6 @@ document.getElementById("continue_stay").innerHTML = contstay;
 <hr>
 <hr>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hbe3CQamF8k?si=we0ZEZB_ORcFs4Gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<hr>
-<hr>
 
 
 
