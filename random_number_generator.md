@@ -120,6 +120,23 @@ if (continuechoice >= 1) {
 document.getElementById("continue_stay").innerHTML = contstay;
 </script>
 
+  <hr>
+
+<h2>(Kill) Either side: Everyone in group follows as backup?</h2>
+
+<h3 id="backup_no"></h3>
+<script>
+let backupchoice = Math.floor(Math.random() * 2);
+let backupno;
+if (backupchoice >= 1) {
+  backupno = "Yes they follow!";
+} else {
+  backupno = "No they stay!";
+}
+
+document.getElementById("backup_no").innerHTML = backupno;
+</script>
+
 <hr>
 <hr>
 
