@@ -1,4 +1,3 @@
-
 <style>
 
 body {
@@ -36,15 +35,15 @@ document.getElementById("war_peace").innerHTML = warOrPeace;
 
 <h3 id="join_no"></h3>
 <script>
-let eitherOr = Math.floor(Math.random() * 2);
-let warOrPeace;
-if (eitherOr >= 1) {
-  warOrPeace = "Join!";
+let joinchoice = Math.floor(Math.random() * 2);
+let join;
+if (joinchoice >= 1) {
+  join = "Join!";
 } else {
-  warOrPeace = "No!";
+  join = "No!";
 }
 
-document.getElementById("join_no").innerHTML = warOrPeace;
+document.getElementById("join_no").innerHTML = join;
 </script>
     
   <hr>
@@ -53,15 +52,15 @@ document.getElementById("join_no").innerHTML = warOrPeace;
 
 <h3 id="contkingyes_no"></h3>
 <script>
-let eitherOr = Math.floor(Math.random() * 2);
-let warOrPeace;
-if (eitherOr >= 1) {
-  warOrPeace = "No!";
+let kingchoice = Math.floor(Math.random() * 2);
+let king;
+if (kingchoice >= 1) {
+  king = "No!";
 } else {
-  warOrPeace = "Yes!";
+  king = "Yes!";
 }
 
-document.getElementById("contkingyes_no").innerHTML = warOrPeace;
+document.getElementById("contkingyes_no").innerHTML = king;
 </script>
     
   <hr>
@@ -70,15 +69,15 @@ document.getElementById("contkingyes_no").innerHTML = warOrPeace;
 
 <h3 id="uattack_theyattack"></h3>
 <script>
-let eitherOr = Math.floor(Math.random() * 2);
-let warOrPeace;
-if (eitherOr >= 1) {
-  warOrPeace = "Contactor!";
+let uattackchoice = Math.floor(Math.random() * 2);
+let uattack;
+if (uattackchoice >= 1) {
+  uattack = "Contactor!";
 } else {
-  warOrPeace = "Contactee!";
+  uattack = "Contactee!";
 }
 
-document.getElementById("uattack_theyattack").innerHTML = warOrPeace;
+document.getElementById("uattack_theyattack").innerHTML = uattack;
 </script>
  <hr>
 
@@ -86,15 +85,15 @@ document.getElementById("uattack_theyattack").innerHTML = warOrPeace;
 
 <h3 id="kill_no"></h3>
 <script>
-let eitherOr = Math.floor(Math.random() * 2);
-let warOrPeace;
-if (eitherOr >= 1) {
-  warOrPeace = "Kill!";
+let killnochoice = Math.floor(Math.random() * 2);
+let killno;
+if (killnochoice >= 1) {
+  killno = "Kill!";
 } else {
-  warOrPeace = "Failed kill!";
+  killno = "Failed kill!";
 }
 
-document.getElementById("kill_no").innerHTML = warOrPeace;
+document.getElementById("kill_no").innerHTML = killno;
 </script>
 
   <hr>
@@ -103,20 +102,21 @@ document.getElementById("kill_no").innerHTML = warOrPeace;
 
 <h3 id="continue_stay"></h3>
 <script>
-let eitherOr = Math.floor(Math.random() * 2);
-let warOrPeace;
-if (eitherOr >= 1) {
-  warOrPeace = "Continue!";
+let continuechoice = Math.floor(Math.random() * 2);
+let contstay;
+if (continuechoice >= 1) {
+  contstay = "Continue!";
 } else {
-  warOrPeace = "Stay!";
+  contstay = "Stay!";
 }
 
-document.getElementById("continue_stay").innerHTML = warOrPeace;
+document.getElementById("continue_stay").innerHTML = contstay;
 </script>
 
 <hr>
 
 <hr>
+
 
 
 
