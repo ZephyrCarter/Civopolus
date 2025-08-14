@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+background-color: black;
+text-align: center;
+color: white;  
+}
+button {border-color: white;
+		  border-style: solid;}
+    .action {
+display: inline;}
+
+</style>
+</head>
+<body>
+
+<h3>Your eyes adjust, and you see that you are in a basement. You see a window just barly poking out above ground level, and a door about ten feet away. which do you choose, the window or door?</h3> 
+
+<hr>
+
+<div class="buttons">
+            <div class="action">
+
+           <button type="button" class="action" onclick="myFunction1()">Window</button>
+           
+       <button type="button" class="action" onclick="myFunction2()">Door</button>
+
+            <p id="option1"></p>
+            <p id="option2"></p>
+
+            </div>
+        </div>
+<hr>
+
+
+<script>
+
+function myFunction1() {
+  document.getElementById("option1").innerHTML = 'You, thinking fast, run for the window. As you climb through the man grabs you, slashing at your feet with his knife. You kick him off, and pull yourself out into a sunny corner ofthe yard.<a href="">Next--></a>';
+}
+function myFunction2() {
+  document.getElementById("option2").innerHTML = 'You, in a desperate bid to escape, run for the door. Bleeding and pushing, you open the door, only for the man to charge at it. Using the last bit of your strength, you slam the door in his face. You look around, and see that you are in the lawn of a victoran style manor." <a href="">Next--></a>';
+}
+
+</script>
+
+</body>
+</html>
