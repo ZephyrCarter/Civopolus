@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+background-color: black;
+text-align: center;
+color: white;  
+}
+button {border-color: white;
+		  border-style: solid;}
+    .action {
+display: inline;}
+
+</style>
+</head>
+<body>
+
+<h3>You continue in the air vent, sharp metal scraping and cutting your skin as you go. As you go along, you see the vent veers suddenly to the right. Do you turn right, or stay on course?</h3> 
+
+<hr>
+
+<div class="buttons">
+            <div class="action">
+
+           <button type="button" class="action" onclick="myFunction1()">Turn right</button>
+           
+       <button type="button" class="action" onclick="myFunction2()">Keep going</button>
+
+            <p id="option1"></p>
+            <p id="option2"></p>
+
+            </div>
+        </div>
+<hr>
+
+
+<script>
+
+function myFunction1() {
+  document.getElementById("option1").innerHTML = 'You turn sharply right, running as quietly as you can, only for the floor to give out under you, leaving you in a dark room. As you regain your composure, you hear running in the vent, and a sharp stop. The running then continues down the right turn you just came from. <a href="">Next--></a>';
+}
+function myFunction2() {
+  document.getElementById("option2").innerHTML = 'You turn keep running straight, but suddenly you trip and fall, losing consciousness. As you awake, you try running straight, only to hit your head on a lowered part of the vent, falling back, and as you feel blood pooling up around you, you hear a running sound in the vent, and you slowly fall asleep on the cold walls around you." <a href="https://zephyrcarter.github.io/Civopolus/rpg/death_screen_universal.html">Next--></a>';
+}
+
+</script>
+
+</body>
+</html>
