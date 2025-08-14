@@ -120,7 +120,10 @@ document.getElementById("continue_stay").innerHTML = contstay;
 <hr>
 <hr>
 
-
+<i>Note: Although this video or videos are integrated on this site using the "embed" feature from youtube, I neither own nor take credit for their music, as dope as it it.</i>
+ 
+<hr>
+<hr>
 
 
 
