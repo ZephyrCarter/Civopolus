@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+   body {
+background-color: black;
+text-align: center;
+color: white;  
+}
+button {border-color: white;
+		  border-style: solid;}
+    .action {
+display: inline;}
+
+</style>
+</head>
+<body>
+
+<h3>You run into the hallway, but seeing a seemingly hidden door, you turn off the main path and enter this door. You stumble in, and find yourself in a dark wood panneled room. You hear the man approaching the secret door you just came through, and you need to think fast. You see a window with some large light blocking drapes covering it, and you see what looks like a closet. Which do you go to?</h3> 
+
+<hr>
+
+<div class="buttons">
+            <div class="action">
+
+           <button type="button" class="action" onclick="myFunction1()">Window</button>
+           
+       <button type="button" class="action" onclick="myFunction2()">Closet</button>
+
+            <p id="option1"></p>
+            <p id="option2"></p>
+
+            </div>
+        </div>
+<hr>
+
+
+<script>
+
+function myFunction1() {
+  document.getElementById("option1").innerHTML = 'You run to the window, and upon pulling the drapes back, you see a brick wall. Suddenly, the man is behind you, and as the fear consumes your heart, he jamms the neadle in your throat, injecting you with speed and force.<a href="https://zephyrcarter.github.io/Civopolus/rpg/death_screen_universal.html">Next--></a>';
+}
+function myFunction2() {
+  document.getElementById("option2").innerHTML = 'You run to the closet, going inside at the last moment. As you feel relief, your ear pricks to the sound of the floorboards creaking. As you hear in horror, they walk briskly too the entrance of the closet. As you still hope they will turn around, the closet flies open, and the man is standing there. He stabs the needle in your chest, draining it in a matter of seconds. As you lose consciousness, you collapse, your eyes slowly closing as the man stands over you, his musk ever present as the blood pools in your mouth.<a href="https://zephyrcarter.github.io/Civopolus/rpg/death_screen_universal.html">Next--></a>';
+}
+
+</script>
+
+</body>
+</html>
