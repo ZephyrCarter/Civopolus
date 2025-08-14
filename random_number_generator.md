@@ -1,4 +1,4 @@
-<title>Civopolus: Manor</title>
+<title>Civopolus</title>
    <link rel="icon" type="image/x-icon" href="favicon.ico">
 
 <style>
