@@ -105,7 +105,7 @@ document.getElementById("kill_no").innerHTML = killno;
 
   <hr>
 
-<h2>(kill) Killer: continue with attack, or stay in place?</h2>
+<h2>(War) Killer: continue with attack, or stay in place?</h2>
 
 <h3 id="continue_stay"></h3>
 <script>
@@ -122,7 +122,7 @@ document.getElementById("continue_stay").innerHTML = contstay;
 
   <hr>
 
-<h2>(Kill) Either side: Everyone in group follows as backup?</h2>
+<h2>(War) Either side: Everyone in group follows as backup?</h2>
 
 <h3 id="backup_no"></h3>
 <script>
