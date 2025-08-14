@@ -12,7 +12,7 @@ color: white;
 		  border-style: solid;}
 </style>
 
-<h1 class="greeting">Numbers randomly generated</h1>
+<h1 class="greeting">Answers coinflip generated</h1>
   
 <hr>
 <hr>
