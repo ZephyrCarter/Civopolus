@@ -1,3 +1,6 @@
+<title>Civopolus: Manor</title>
+   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
 <style>
 
 body {
