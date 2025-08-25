@@ -33,6 +33,38 @@ color: white;
 <hr>
 <hr>
 
+<h2>Resettle?</h2>
+
+<h3 id="resettle_no"></h3>
+<script>
+let resettleNo = Math.floor(Math.random() * 2);
+let resettleOrNo;
+if (resettleNo >= 1) {
+  resettleOrNo = "Yes, Resettle!";
+} else {
+  resettleOrNo = "No, don't Resettle!";
+}
+
+document.getElementById("resettle_no").innerHTML = resettleOrNo;
+</script>
+  <hr>
+
+<h2>(Resettle) Resettler: Does the leader Resettle here, or keep moving?</h2>
+
+<h3 id="leadermove_no"></h3>
+<script>
+let leaderMoveNo = Math.floor(Math.random() * 2);
+let leaderMoveOrNo;
+if (leaderMoveNo >= 1) {
+  leaderMoveOrNo = "Resettle here!";
+} else {
+  leaderMoveOrNo = "No, keep moving!";
+}
+
+document.getElementById("leadermove_no").innerHTML = leaderMoveOrNo;
+</script>
+  <hr>	
+	
 <h2>War or Peace?</h2>
 
 <h3 id="war_peace"></h3>
@@ -116,7 +148,7 @@ document.getElementById("kill_no").innerHTML = killno;
 
   <hr>
 
-<h2>Attack victem, flee (Leader leads) or no?</h2>
+<h2>(War) Attack victem, flee (Leader leads) or no?</h2>
 
 <h3 id="flee_no"></h3>
 <script>
@@ -132,7 +164,7 @@ document.getElementById("flee_no").innerHTML = fleeOrNo;
 </script>
   <hr>
 	
-<h2>Truce?</h2>
+<h2>(War) Truce?</h2>
 
 <h3 id="truce_no"></h3>
 <script>
