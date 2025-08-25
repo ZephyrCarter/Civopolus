@@ -116,6 +116,22 @@ document.getElementById("kill_no").innerHTML = killno;
 
   <hr>
 
+<h2>Truce?</h2>
+
+<h3 id="truce_no"></h3>
+<script>
+let truceNo = Math.floor(Math.random() * 2);
+let truceOrNo;
+if (truceNo >= 1) {
+  truceOrNo = "A Truce has been made!";
+} else {
+  truceOrNo = "No Truce, War!";
+}
+
+document.getElementById("truce_no").innerHTML = truceOrNo;
+</script>
+  <hr>
+
 <h2>(War) Killer: continue with attack, or stay in place?</h2>
 
 <h3 id="continue_stay"></h3>
