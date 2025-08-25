@@ -49,14 +49,14 @@ document.getElementById("resettle_no").innerHTML = resettleOrNo;
 </script>
   <hr>
 
-<h2>(Resettle) Resettler: Does the leader Resettle here, or keep moving?</h2>
+<h2>(Resettle) Resettler: Stay here, or keep moving?</h2>
 
 <h3 id="leadermove_no"></h3>
 <script>
 let leaderMoveNo = Math.floor(Math.random() * 2);
 let leaderMoveOrNo;
 if (leaderMoveNo >= 1) {
-  leaderMoveOrNo = "Resettle here!";
+  leaderMoveOrNo = "Resettle here, stay 5 turns";
 } else {
   leaderMoveOrNo = "No, keep moving!";
 }
